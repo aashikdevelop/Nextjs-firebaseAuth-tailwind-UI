@@ -2,7 +2,7 @@
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "@/firebase";
 import { signOut } from "firebase/auth";
-import Login from "@/components/login";
+import Login from "@/components/Login";
 import LoadingSpinner from "@/components/LoadingSpinner";
 import "react-toastify/dist/ReactToastify.css";
 
